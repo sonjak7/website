@@ -1,0 +1,95 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+}
+
+.back{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.top{
+    position: relative;
+    top: 0%;
+    background-color: black;
+    text-align: center;
+    opacity: 0.6;
+    width: 100%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    height: 7%;
+}
+
+.head{
+    color: white;
+    background-color: black;
+    border-color: black;
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    opacity: 0.6;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 100%;
+}
+
+.head:hover{
+    background-color: silver;
+}
+
+.ask{
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.entry{
+    width: 50%;
+    height: 50px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgb(243, 241, 241);
+}
+
+.entry:focus{
+    outline: none;
+    border-color: blue;
+}
+
+.submit{
+    width: 50.5%;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: rgb(61, 61, 61);
+}
+
+.rad{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.circ{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+label, input, span{
+    position: relative;
+    top: 10px
+}

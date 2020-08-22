@@ -1,0 +1,129 @@
+html, body{
+    margin: 0px;
+    height: 100%;
+}
+
+.back{
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.top{
+    position: relative;
+    top: 0%;
+    background-color: black;
+    text-align: center;
+    opacity: 0.6;
+    width: 100%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    height: 7%;
+}
+
+.head{
+    color: white;
+    background-color: black;
+    border-color: black;
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    opacity: 0.6;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    height: 100%;
+}
+
+.head:hover{
+    background-color: silver;
+    cursor: pointer;
+}
+
+.title{
+    position: relative;
+    bottom: 25px;
+    left: 1%;
+    right: 1%;
+    width: 98%;
+    height: 80px;
+    background-color: black;
+    color: white; 
+    text-align: center;
+    line-height: 75px;
+    font-size: 60px;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    opacity: 0.6;
+}
+
+.content{
+    position: relative;
+    left: 1%;
+    right: 1%;
+    width: 98%;
+    color: white;
+}
+
+.art{
+    top: -60px;
+    height: 300px;
+    background-color: rgba(1, 16, 22, 0.8);
+}
+
+.sport{
+    top: -45px;
+    height: 300px;
+    background-color: rgba(15, 5, 5, 0.8);
+}
+
+.trav{
+    top: -30px;
+    height: 700px;
+    background-color: rgba(1, 10, 4, 0.8);
+}
+
+.first{
+    text-align: right !important;
+    position: relative !important;
+    left: 1%;
+    top: 2%;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.second{
+    position: relative;
+    left: 10px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.scroller{
+    position: relative;
+    left: 15px;
+    border: 1px lightgreen;
+    border-style: solid;
+    color: white;
+    width: 25%;
+    height: 100px;
+    overflow: scroll;
+}
+
+.pics{
+    width: 22%;
+    height: 220px;
+    padding: 1%;
+}
+
+.scenes{
+    width: 22%;
+    height: 180px;
+    padding: 1%;
+}   
+
+.center{
+    text-align: center;
+}

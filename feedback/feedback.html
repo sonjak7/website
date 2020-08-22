@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Page</title>
+    <link rel="stylesheet" href="feed_style.css" type="text/css">
+</head>
+<body>
+    <div class="top">
+        <a href="http://web.engr.oregonstate.edu/~ramanasa/IMPROVED/HOME/home.html" title="Home" class="head">Home</a>
+        <a href="http://web.engr.oregonstate.edu/~ramanasa/IMPROVED/academics/academics.html" title="Academics" class="head">Academics</a>
+        <a href="http://web.engr.oregonstate.edu/~ramanasa/IMPROVED/extras/extras.html" title="Extras" class="head">Extras</a>
+        <a href="http://web.engr.oregonstate.edu/~ramanasa/IMPROVED/feedback/feedback.html" title="Feedback" class="head">Feedback</a>
+        <a href="https://github.com/sonjak7" target="_blank" title="My github" class="head git">GitHub</a>
+    </div>
+
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get" target="_blank">
+            <label for="username" class="ask">Enter your name:</label><br>
+            <input type="text" id="username" name="username" class="entry" style="font-size:25px;"><br><br>
+
+            <span class="ask">How would you rate this site:</span><br>
+            <input type="radio" id="hor" name="rating" value="horrible" class="circ">
+            <label for="hor" class="rad">Horrible</label>
+            <input type="radio" id="bad" name="rating" value="bad" class="circ">
+            <label for="bad" class="rad">Bad</label>
+            <input type="radio" id="avg" name="rating" value="average" class="circ">
+            <label for="avg" class="rad">Average</label>
+            <input type="radio" id="good" name="rating" value="good" class="circ">
+            <label for="good" class="rad">Good</label>
+            <input type="radio" id="aws" name="rating" value="awesome" class="circ">
+            <label for="aws" class="rad">Awesome</label><br><br>
+
+            <label for="improv" class="ask">What would change about this site:</label><br>
+            <textarea type="text" id="improv" name="improvements" class="entry" style="height:150px; font-size:20px"></textarea><br><br>
+
+            <input type="submit" value="Submit" class="submit">
+    </form>
+</body>
+</html>
