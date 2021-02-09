@@ -14,7 +14,7 @@
         <a href="https://github.com/sonjak7" target="_blank" title="My github" class="head git">GitHub</a>
     </div>
 
-    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get" target="_blank">
+    <form action="" method="get">
             <label for="username" class="ask">Enter your name:</label><br>
             <input type="text" id="username" name="username" class="entry" style="font-size:25px;"><br><br>
 
@@ -33,7 +33,13 @@
             <label for="improv" class="ask">What would change about this site:</label><br>
             <textarea type="text" id="improv" name="improvements" class="entry" style="height:150px; font-size:20px"></textarea><br><br>
 
-            <input type="submit" value="Submit" class="submit">
+            <input type="submit" value="Submit" class="submit" onclick="fin()">
+
     </form>
 </body>
+<script>
+  function fin(){
+    alert("Feedback submitted!");
+  }
+</script>
 </html>

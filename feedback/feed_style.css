@@ -34,6 +34,7 @@ html, body{
     padding-left: 4%;
     padding-right: 4%;
     height: 100%;
+    transition: 200ms;
 }
 
 .head:hover{
